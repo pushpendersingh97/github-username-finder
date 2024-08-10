@@ -10,10 +10,10 @@ const Card = () => {
           className="rounded-full w-24 h-24"
         />
         <div className="flex flex-col w-full px-4">
-          <d className="flex justify-between items-center w-full">
+          <div className="flex justify-between items-center w-full">
             <h1 className="text-2xl font-bold">mojombo</h1>
             <span className="text-sm text-gray-300">Joined on 2007-10-20</span>
-          </d>
+          </div>
           <p className="text-md text-gray-300">@mojombo</p>
           <p className="text-sm text-gray-300 my-4">This profile has no bio</p>
           <div className="flex justify-around items-center bg-custom-primary p-4 rounded-lg">

@@ -1,9 +1,11 @@
 import { useState } from "react";
 import CardLayout from "../common/CardLayout";
 import { AiOutlineSearch } from "react-icons/ai";
+import useFindUsername from "../../utils/useFindUsername";
 
 const SearchBar = () => {
   const [search, setSearch] = useState("");
+  const { fetchUsername } = useFindUsername();
 
   const searchHandler = (e) => {
     setSearch(e.target.value);
@@ -23,7 +25,7 @@ const SearchBar = () => {
         <button
           type="button"
           className="bg-custom-tertiary text-white px-4 py-2 rounded-md"
-          onClick={() => console.log(search)}
+          onClick={() => fetchUsername(search)}
         >
           Search
         </button>
