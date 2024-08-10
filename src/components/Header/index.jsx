@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <div className="flex justify-between items-center">
-        <span>devFinder</span>
+        <span>Github Finder</span>
         <button
           className="flex justify-center items-center"
           onClick={darkModeHandler}
