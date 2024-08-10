@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist --repo https://x-access-token:${GH_PAGES_TOKEN}@github.com/pushpendersingh97/repo.git"
+     "deploy": "gh-pages -d dist --repo https://x-access-token:${GH_PAGES_TOKEN}@github.com/pushpendersingh97/github-username-finder.git"
   },
   "dependencies": {
     "react": "^18.3.1",
