@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="flex justify-between items-center p-4">
+      <div className="flex justify-between items-center">
         <span>devFinder</span>
         <button
           className="flex justify-center items-center"
@@ -20,11 +20,11 @@ const Header = () => {
         >
           {dark ? (
             <>
-              <span className="pr-4">Dark</span> <AiOutlineMoon />
+              <span className="pr-4">Dark</span> <AiOutlineMoon size='2em' />
             </>
           ) : (
             <>
-              <span className="pr-4">Light</span> <AiFillSun />
+              <span className="pr-4">Light</span> <AiFillSun size='2em' />
             </>
           )}
         </button>
